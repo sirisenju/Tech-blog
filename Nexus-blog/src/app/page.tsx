@@ -25,7 +25,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <Hero />
       
-      <div className="container max-w-7xl mx-auto px-4 sm:px-6 py-12">
+      <div className="w-full sm:w-[70%] lg:max-w-7xl mx-auto px-4 sm:px-6 py-12">
         {/* Featured Post */}
         <FeaturedPost post={featuredPost} />
         
